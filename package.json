@@ -17,8 +17,11 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv-cli": "^4.0.0",
-    "rimraf": "^3.0.2"
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "typedi": "^0.10.0"
   },
   "devDependencies": {
     "@types/eslint": "^7.28.0",

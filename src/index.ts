@@ -1,3 +1,7 @@
-async function main() {}
+import 'reflect-metadata';
+import Container from 'typedi';
+import { AppService } from './services/app.service';
 
-main();
+const appService = Container.get(AppService);
+
+appService.bootstrap();
